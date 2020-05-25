@@ -1,0 +1,27 @@
+{
+  "name": "useless-file-plugin",
+  "version": "0.0.1",
+  "description": "move useless file to target directory",
+  "main": "MoveUselessFilePlugin.js",
+  "directories": {
+    "example": "example"
+  },
+  "files": [
+    "MoveUselessFilePlugin.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "useless code",
+    "useless file",
+    "remove code",
+    "webpack plugin"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^9.0.0",
+    "glob": "^7.1.6"
+  }
+}
