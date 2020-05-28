@@ -108,7 +108,7 @@ class MoveUselessFilePlugin {
                 nodir: true
             }, (err, files) => {
                 if (err) {
-                throw err
+                    throw err
                 }
                 const out = files.map(item => path.resolve(item))
                 resolve(out)
