@@ -104,16 +104,16 @@ class MoveUselessFilePlugin {
 
     getAllFiles (pattern) {
         return new Promise((resolve, reject) => {
-      glob(pattern, {
-        nodir: true
-      }, (err, files) => {
-        if (err) {
-          throw err
-        }
-        const out = files.map(item => path.resolve(item))
-        resolve(out)
-      })
-    })
+            glob(pattern, {
+                nodir: true
+            }, (err, files) => {
+                if (err) {
+                throw err
+                }
+                const out = files.map(item => path.resolve(item))
+                resolve(out)
+            })
+        })
     }
 }
 
