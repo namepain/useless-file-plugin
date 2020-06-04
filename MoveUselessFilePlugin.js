@@ -8,7 +8,7 @@ class MoveUselessFilePlugin {
         target = './deprecated',
         logInfo = false,
         exclude = [] 
-    }) {
+    } = {}) {
         this.ops = {
             root,
             target,
